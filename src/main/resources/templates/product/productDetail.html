@@ -108,9 +108,8 @@
     </div>
     <!-- Container End -->
 </section>
-<th:block th:replace="/include/footer.html :: footer"></th:block>
-<th:block th:replace="/include/script :: script"></th:block>
 
+<th:block th:replace="/include/footer.html :: footer"></th:block>
 <script th:inline="javascript">
     let realpath = /*[[@{'/'}]]*/ 'default';
 
@@ -173,5 +172,6 @@
     });
 
 </script>
+<th:block th:replace="/include/script :: script"></th:block>
 </body>
 </html>

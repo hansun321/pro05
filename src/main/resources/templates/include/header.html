@@ -32,25 +32,25 @@
                         <th:block th:if="${session.sid==null}">
                         <ul class="navbar-nav ml-auto mt-10">
                             <li class="nav-item">
-                                <a class="nav-link login-button" th:href="@{/member/login}">Login</a>
+                                <a class="nav-link login-button" th:href="@{/member/login}">로그인</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white add-button" th:href="@{/member/joinTerm}">Join</a>
+                                <a class="nav-link text-white add-button" th:href="@{/member/joinTerm}">회원가입</a>
                             </li>
                         </ul>
                         </th:block>
                         <th:block th:if="${session.sid!=null}">
                             <ul class="navbar-nav ml-auto mt-10">
                                 <li class="nav-item">
-                                    <a class="nav-link login-button" th:href="@{/member/logout}">Logout</a>
+                                    <a class="nav-link login-button" th:href="@{/member/logout}">로그아웃</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white add-button" th:href="@{/myshop/products}">MyPage</a>
-                                    <!--<a class="nav-link text-white add-button" th:href="@{/member/myPage}">MyPage</a>-->
+<!--                                    <a class="nav-link login-button bg-success border-0" th:href="@{/myshop/products}">MyPage</a>-->
+                                    <a class="nav-link text-white add-button ml-1" th:href="@{/member/myPage}">마이페이지</a>
                                 </li>
                                 <th:block th:if="${session.sid eq 'admin'}">
                                     <li class="nav-item">
-                                        <a class="nav-link text-white add-button" th:href="@{/admin/home(id = ${session.sid})}">관리자페이지</a>
+                                        <a class="nav-link text-white bg-primary add-button ml-1" th:href="@{/admin/home(id = ${session.sid})}">관리자페이지</a>
                                     </li>
                                 </th:block>
                             </ul>

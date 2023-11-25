@@ -157,7 +157,7 @@ ul.social-circle-icons li:last-child {
 }
 ul.social-circle-icons li a {
   display: block;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 38px;
   color: #5672f9;
   height: 38px;
@@ -183,7 +183,7 @@ ul.social-circle-icons li a:hover {
 }
 .store-list ul li {
   display: block;
-  font-size: 15px;
+  font-size: 1rem;
   margin-bottom: 8px;
 }
 .store-list ul li a {
@@ -196,7 +196,7 @@ ul.social-circle-icons li a:hover {
 }
 @media (max-width: 768px) {
   .store-list {
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
   }
 }
 .store-list .btn {
@@ -241,7 +241,7 @@ a:hover {
   background-color: transparent;
   color: #666;
   box-shadow: none;
-  font-size: 15px;
+  font-size: 1rem;
 }
 .form-control:focus {
   color: #666;
@@ -423,7 +423,7 @@ button {
  *
  */
 .btn {
-  font-size: 15px;
+  font-size: 1rem;
   letter-spacing: 1px;
   display: inline-block;
   padding: 1px 20px;
@@ -441,7 +441,7 @@ button {
 
 .btn-main-sm {
   padding: 6px 20px;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 .btn-secondary {
@@ -706,7 +706,7 @@ ul.pagination .active a {
   color: #5672f9;
 }
 .main-nav .search .nav-link i {
-  font-size: 15px;
+  font-size: 1rem;
   height: 43px;
   width: 43px;
   line-height: 43px;
@@ -724,7 +724,7 @@ ul.pagination .active a {
   border: 1px solid #5672f9;
 }
 .main-nav .search .input-group .input-group-addon i {
-  font-size: 15px;
+  font-size: 1rem;
   padding-right: 5px;
   padding-left: 5px;
 }
@@ -855,7 +855,7 @@ ul.pagination .active a {
   font-size: 65px;
   font-weight: bold;
   letter-spacing: 0.05em;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 @media (max-width: 768px) {
   .hero-area .content-block h1,
@@ -883,7 +883,7 @@ ul.pagination .active a {
 }
 .hero-area .advance-search {
   background: #fff;
-  padding: 40px 15px 25px 15px;
+  padding: 40px 1rem 25px 1rem;
   border-radius: 3px;
   margin-bottom: -50px;
   box-shadow: -1px 3px 6px rgba(0, 0, 0, 0.12);
@@ -924,7 +924,7 @@ ul.pagination .active a {
 }
 .short-popular-category-list ul li {
   margin: 0 2px;
-  margin-top: 15px;
+  margin-top: 1rem;
 }
 .short-popular-category-list ul li a {
   border: 1px solid #404040;
@@ -982,7 +982,7 @@ ul.pagination .active a {
 }
 .user-dashboard-menu li a {
   padding: 10px;
-  font-size: 15px;
+  font-size: 1rem;
   display: block;
   font-weight: 600;
   color: #555;
@@ -1296,11 +1296,11 @@ ul.pagination .active a {
   margin-right: 10px;
 }
 .category-search-filter .view ul li a {
-  font-size: 15px;
+  font-size: 1rem;
 }
 .category-search-filter .view .view-switcher {
   background: #fff;
-  padding: 10px 15px;
+  padding: 10px 1rem;
 }
 
 .nice-select {
@@ -1328,7 +1328,7 @@ ul.pagination .active a {
 }
 
 .arrow-right {
-  right: -15px;
+  right: -1rem;
 }
 
 .arrow-left {
@@ -1367,10 +1367,10 @@ ul.pagination .active a {
   font-size: 12px;
 }
 .product-item .product-meta {
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 .product-item .product-meta li {
-  margin-right: 15px;
+  margin-right: 1rem;
 }
 .product-item .product-meta li a {
   color: #888;
@@ -1604,7 +1604,7 @@ ul.pagination .active a {
   margin-bottom: 8px;
 }
 .widget.category ul.category-list li a {
-  font-size: 15px;
+  font-size: 1rem;
   letter-spacing: 0;
   display: block;
   color: #848484;
@@ -1622,7 +1622,7 @@ ul.pagination .active a {
   margin-bottom: 5px;
 }
 .widget.archive ul.archive-list li a {
-  font-size: 15px;
+  font-size: 1rem;
   letter-spacing: 0;
   display: block;
   color: #848484;
@@ -1712,7 +1712,7 @@ ul.pagination .active a {
   height: 50px;
   width: 50px;
   line-height: 50px;
-  margin-right: 15px;
+  margin-right: 1rem;
   border-radius: 100%;
 }
 @media (max-width: 768px) {
@@ -1747,7 +1747,7 @@ ul.pagination .active a {
   border: none;
 }
 .widget.search .input-group .input-group-addon i {
-  font-size: 15px;
+  font-size: 1rem;
   padding-right: 10px;
   padding-left: 10px;
   line-height: 45px;
@@ -1776,7 +1776,7 @@ ul.pagination .active a {
   }
 }
 .call-to-action .content-holder .store-btn-holder a {
-  margin-right: 15px;
+  margin-right: 1rem;
 }
 
 .subscription {
@@ -1835,7 +1835,7 @@ ul.pagination .active a {
 }
 .stores ul.store-list li a {
   display: block;
-  font-size: 15px;
+  font-size: 1rem;
   color: #666;
   margin-bottom: 25px;
 }
@@ -1876,7 +1876,7 @@ ul.pagination .active a {
 .store-coupon .block .media .media-body ul li {
   font-weight: bold;
   font-size: 17px;
-  padding: 0 15px;
+  padding: 0 1rem;
   border-right: 1px solid #dedede;
 }
 .store-coupon .block .media .media-body ul li:last-child {
@@ -1920,7 +1920,7 @@ ul.pagination .active a {
 }
 .store-coupon .block .social-content ul.social-circle-icons li a {
   display: block;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 38px;
   color: #5672f9;
   height: 38px;
@@ -1935,7 +1935,7 @@ ul.pagination .active a {
   background: #5672f9;
 }
 .store-coupon .block .social-content .share {
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 28px;
   color: #848484;
 }
@@ -1952,7 +1952,7 @@ ul.pagination .active a {
 .store .block .store-nav .nav-item .nav-link {
   font-size: 17px;
   padding: 0 40px 0 0;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 
 article {
@@ -2011,7 +2011,7 @@ article h3 {
   margin-bottom: 5px;
 }
 article ul {
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 article ul li {
   margin-right: 10px !important;
@@ -2119,7 +2119,7 @@ article.single-post p {
   transition: all linear 0.3s;
 }
 .ad-listing-list:hover {
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
 }
 
 .product-ratings ul li i {
@@ -2295,8 +2295,8 @@ form textarea {
 }
 @media (max-width: 768px) {
   .scroll-top-to {
-    bottom: 15px;
-    right: 15px;
+    bottom: 1rem;
+    right: 1rem;
     width: 35px;
     height: 35px;
     line-height: 35px;
